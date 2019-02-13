@@ -14,7 +14,7 @@ import org.springframework.data.elasticsearch.repository.config.EnableElasticsea
 import java.net.InetAddress;
 
 @Configuration
-@EnableElasticsearchRepositories(basePackages = "com.LegendsOfTheArena.Elastic.Repositories")
+@EnableElasticsearchRepositories(basePackages = "com.LegendsOfTheArena.Elastic.repositories")
 public class EsConfig {
 
     @Value("${elasticsearch.host}")

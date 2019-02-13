@@ -1,4 +1,4 @@
-package Service;
+package com.LegendsOfTheArena.Elastic.service;
 
 import java.util.List;
 

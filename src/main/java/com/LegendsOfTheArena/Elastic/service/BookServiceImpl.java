@@ -1,4 +1,4 @@
-package Service;
+package com.LegendsOfTheArena.Elastic.service;
 
 import java.util.List;
 
@@ -7,8 +7,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.LegendsOfTheArena.Elastic.Repositories.BookRepository;
 import com.LegendsOfTheArena.Elastic.model.Book;
+import com.LegendsOfTheArena.Elastic.repositories.BookRepository;
 
 @Service
 public class BookServiceImpl implements BookService {

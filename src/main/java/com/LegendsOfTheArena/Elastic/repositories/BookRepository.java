@@ -1,4 +1,4 @@
-package com.LegendsOfTheArena.Elastic.Repositories;
+package com.LegendsOfTheArena.Elastic.repositories;
 
 import java.util.List;
 

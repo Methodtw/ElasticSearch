@@ -5,7 +5,7 @@ package com.LegendsOfTheArena.Elastic.model;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 
-@Document(indexName = "Moka", type = "books")
+@Document(indexName = "moka", type = "books")
 public class Book {
 
     @Id
@@ -35,4 +35,24 @@ public class Book {
                 ", releaseDate='" + releaseDate + '\'' +
                 '}';
     }
+
+	public String getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public String getTitle() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object[] getReleaseDate() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object[] getAuthor() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

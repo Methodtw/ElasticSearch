@@ -14,4 +14,6 @@ public interface BookRepository extends ElasticsearchRepository<Book, String> {
 
     List<Book> findByTitle(String title);
 
+	Book findOne(String id);
+
 }
